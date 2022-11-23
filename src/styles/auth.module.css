@@ -1,0 +1,84 @@
+.auth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.auth-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase ;
+    letter-spacing: 0.4rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    padding-inline: 4rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form input, .form select{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0 8px 32px 0 #76ACCB;
+    border-radius: 2rem;
+    width: 80%;
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #35484e;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+}
+
+.form a button{
+    display: flex;
+    background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding-inline: 5rem;
+    padding-block: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    padding-bottom: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.form a{
+    color: #492B74;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    justify-content: center;
+}

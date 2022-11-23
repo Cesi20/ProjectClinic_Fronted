@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=PT+Sans+Narrow:wght@700&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+/* body{
+    font-fam backgroundily: 'Raleway', sans-serif;
+   -image: url('https://cdn.discordapp.com/attachments/879730536908734504/1038579132818272286/unknown.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+*/
