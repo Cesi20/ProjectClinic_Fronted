@@ -4,13 +4,9 @@
 
     export default function VerPaciente() {
         return (
-            <div className="tablas">
-          
-               
-                <h1>TABLASSS</h1>
-                <h1> </h1>
-        
-            </div>
+            <h1>
+                hola paciente tablas
+            </h1>
         );
         }
 
