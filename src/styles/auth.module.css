@@ -1,16 +1,19 @@
 .auth{
-    display: grid;
+    background-image: url('https://images-ext-1.discordapp.net/external/4s9k0Q-cuIixluTKiMFrvKJkm-W9FnbcvZKuGx8oy4k/https/www.plantadoce.com/files/2020/20_recursos/equipamiento/microscopio-equipo-728.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
     grid-template-columns: repeat(2, 1fr);
     width: 100vw;
-    display: flex;
+    height: 100vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-
-}
-
-.auth-form{
+  
+  }
+  
+  .auth-form{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,23 +26,24 @@
     color: #fff;
     text-transform: uppercase ;
     letter-spacing: 0.4rem;
-}
-
-.form{
+  }
+  
+  .form{
     display: flex;
     flex-direction: column;
     padding: 3rem;
     padding-inline: 4rem;
     gap: 2rem;
     align-items: center;
-}
-
-.form h1{
+    align-items: center;
+  }
+  
+  .form h1{
     font-size: 2rem;
     text-align: center;
-}
-
-.form input, .form select{
+  }
+  
+  .form input, .form select{
     display: flex;
     background: #FFFFFF;
     box-shadow: 0 8px 32px 0 #76ACCB;
@@ -54,31 +58,41 @@
     font-weight: bold;
     padding-inline: 2rem;
     padding-block: 0.5rem;
-}
-
-.form a button{
-    display: flex;
+  }
+  
+  .form button{
     background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
-    border-radius: 20px;
+    border-radius: 30px;
     outline: none;
     border: none;
     color: #fff;
     padding-inline: 5rem;
     padding-block: 1rem;
     width: 100%;
+    font-size: 1rem;
     margin: 0 auto;
     cursor: pointer;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
     font-size: 1rem;
     font-weight: bold;
     justify-content: center;
-}
-
-.form a{
+    align-items: center;
+    letter-spacing: 0.2rem;
+    margin-top: 25px;
+    margin-bottom: -30px;
+  }
+  
+  .form button:hover{
+    background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
+    box-shadow: 0 8px 32px 0 #76ACCB;
+  }
+  
+  .form p{
     color: #492B74;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
     margin-top: 1rem;
     justify-content: center;
-}
+    padding-top: 20px;
+  }
