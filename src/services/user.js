@@ -5,4 +5,9 @@ export const authLoginDB = async (dataLogin) => {
   return data;
 };
 
+export const authRegistroDB = async (dataRegistro) => {
+  const { data } = await ClinicAPI.post("/auth/registerPatient", dataRegistro);
+  return data;
+};
+
 
