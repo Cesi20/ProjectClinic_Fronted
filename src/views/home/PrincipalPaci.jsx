@@ -1,4 +1,3 @@
-import React from "react";
 import  "../../styles/principalpaci.css";
 import { Link } from "react-router-dom"
 
@@ -9,7 +8,7 @@ export default function PrincipalPaci() {
             <center>
             <h1> BIENVENIDO A </h1>
             </center>
-            <img src="https://media.discordapp.net/attachments/879730536908734504/1044474116981403668/image-removebg-preview.png"/>
+            <img src="https://media.discordapp.net/attachments/879730536908734504/1044474116981403668/image-removebg-preview.png" alt=""/>
             <center>
             <button>
                  <Link to="/verDoc">Ver Doctores</Link>

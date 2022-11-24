@@ -1,15 +1,10 @@
-// import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
 import Login from '../views/auth/Login';
 import Registro from '../views/auth/Registro';
-import PrincipalDoc from '../views/auth/PrincipalDoc';
-// import CrearCerti from '../views/auth/CrearCerti';
-// import VerPaciente from '../views/auth/VerPaciente';
-import PrincipalPaci from '../views/auth/PrincipalPaci';
-// import VerCerti from '../views/auth/VerCerti';
-// import VerDoc from '../views/auth/VerDoc';
+import PrincipalDoc from '../views/home/PrincipalDoc';
+import PrincipalPaci from '../views/home/PrincipalPaci';
 
-import React from 'react';
 export const AppRouter = () => {
 
   return (
