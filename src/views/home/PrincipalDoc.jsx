@@ -13,7 +13,11 @@ export default function PrincipalDoc() {
           alt=""
         />
 
-        <h1>BIENVENIDA DOCTORA {user?.email}</h1>
+        <h1>BIENVENIDA DOCTORA</h1>
+        <h1> 
+        {user?.email}
+           </h1>
+           <br></br>
         <button>
           <Link to="/verPaciente">Ver Paciente</Link>
         </button>
