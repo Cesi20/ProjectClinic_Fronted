@@ -51,7 +51,8 @@
 
 .form h1{
   font-size: 2rem;
-  text-align: center;  
+  text-align: center;
+  margin-bottom: 1rem; 
 }
 
 .form input, .form select{
@@ -67,7 +68,7 @@
   color: #35484e;
   font-size: 1rem;
   font-weight: bold;
-  padding-inline: 2rem;
+  padding-inline: 5rem;
   padding-block: 0.5rem;
 }
 
