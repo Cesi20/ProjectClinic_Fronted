@@ -22,9 +22,6 @@ export default function PrincipalDoc() {
           <Link to="/verPaciente">Ver Paciente</Link>
         </button>
         <div className="space"></div>
-        <button>
-          <Link to="/crearCerti">Crear Certificado Medico</Link>
-        </button>
       </div>
     </div>
   );
