@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import styles from "../../styles/auth.module.css";
+import styles from "../../styles/AuthForm.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 
