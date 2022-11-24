@@ -52,7 +52,9 @@ export default function Login() {
           </Link> */}
           <button type="submit"> ingresar </button>
 
-          <button>{/* <Link to="/registro">Registrese</Link> */}</button>
+          <Link to="/registro">
+            <button>Registrarse</button>
+            </Link>
           <center>
             <Link to="/ForgetPassword">
               <p>¿Olvidaste tu contraseña?</p>
