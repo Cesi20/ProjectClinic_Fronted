@@ -4,9 +4,11 @@
 
     export default function VerPaciente() {
         return (
+            <div>
             <h1>
-                hola paciente tablas
+                hola paciente tablas 
             </h1>
+            </div>
         );
         }
 
