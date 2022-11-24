@@ -50,7 +50,7 @@ export default function Login() {
 
           {/* <Link to="/principalDoc">
           </Link> */}
-          <button type="submit"> ingresar </button>
+          <button type="submit"> Ingresar </button>
 
           <Link to="/registro">
             <button>Registrarse</button>
