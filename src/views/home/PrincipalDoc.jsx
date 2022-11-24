@@ -18,9 +18,11 @@ export default function PrincipalDoc() {
         {user?.email}
            </h1>
            <br></br>
-        <button>
-          <Link to="/verPaciente">Ver Paciente</Link>
-        </button>
+        
+          <Link to="/verPaciente">
+            <button>Ver Pacientes</button>
+          </Link>
+        
         <div className="space"></div>
       </div>
     </div>

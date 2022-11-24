@@ -4,6 +4,7 @@ import Login from '../views/auth/Login';
 import Registro from '../views/auth/Registro';
 import PrincipalDoc from '../views/home/PrincipalDoc';
 import PrincipalPaci from '../views/home/PrincipalPaci';
+import VerPaciente from '../views/home/VerPaciente';
 
 export const AppRouter = () => {
 
@@ -15,7 +16,7 @@ export const AppRouter = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/principalDoc" element={<PrincipalDoc />} />
         {/* <Route path="/crearCerti" element={<CrearCerti />} /> */}
-        {/* <Route path="/verPaciente" element={<VerPaciente />} /> */}
+        <Route path="/verPaciente" element={<VerPaciente />} />
         <Route path="/principalPaci" element={<PrincipalPaci />} />
         {/* <Route path="/verCerti" element={<VerCerti />} /> */}
         {/* <Route path="/verDoc" element={<VerDoc />} /> */}
