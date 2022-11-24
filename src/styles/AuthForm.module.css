@@ -17,18 +17,18 @@
   height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
-
-
   
+  padding: 2rem;
+ 
+
+
 }
 
 .auth-form{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 80vw;
+  width: 50vw;
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8.5px);
@@ -51,7 +51,7 @@
 
 .form h1{
   font-size: 2rem;
-  text-align: center;
+  color: black;
   margin-bottom: 1rem; 
 }
 
@@ -60,16 +60,17 @@
   background: #FFFFFF;
   box-shadow: 0 8px 32px 0 #76ACCB;
   border-radius: 2rem;
-  width: 80%;
+  width: 150%;
   height: 2rem;
-  padding: 1rem;
   border: none;
   outline: none;
   color: #35484e;
   font-size: 1rem;
   font-weight: bold;
-  padding-inline: 5rem;
+  padding-inline: 1rem;
   padding-block: 0.5rem;
+  border-right: 0.5rem solid #FFFFFF;
+  
 }
 
 .form button{

@@ -9,8 +9,8 @@ export default function Registro() {
       <div className={styles["auth-form"]}>
         <form className={styles.form}>
           <h1>Registro</h1>
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Contraseña" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Contraseña" />
           <input type="text" placeholder="Nombre Completo" />
           <select>
             <option value="">Tipo de documento</option>
@@ -27,9 +27,10 @@ export default function Registro() {
           <input type="date" />
           <input type="text" placeholder="Celular" />
           <input type="text" placeholder="Dirección" />
-          <button>
+          {/* <button>
             <Link to="/login">Registro</Link>
-          </button>
+          </button> */}
+          <button type="submit"> Registrar </button>
         </form>
       </div>
     </div>
