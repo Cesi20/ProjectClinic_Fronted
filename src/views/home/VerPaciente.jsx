@@ -6,6 +6,10 @@ export default function VerPaciente() {
         <center>
         <div className="container1">
             <div className="container">
+            <img
+          src="https://media.discordapp.net/attachments/879730536908734504/1044474116981403668/image-removebg-preview.png"
+          alt=""
+        />
                 
                 <table classname="tabla">
 
@@ -25,6 +29,104 @@ export default function VerPaciente() {
                             {/* Onceava columna  */}<th>Funciones</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
+                            {/* FILA 01 CONTRASEÑA*/} <td>123456</td>
+                            {/* FILA 01 NOMBRES COMPLETOS*/}<td> Cesia Alexandra Tito Huerta</td>
+                            {/* FILA 01 TIPO DE DOCUMENTO*/}<td>DNI</td>
+                            {/* FILA 01 NUMERO DE DOCUMENTO*/}<td> 12345678</td>
+                            {/* FILA 01 GENERO*/}<td>Femenino</td>
+                            {/* FILA 01 EDAD*/}<td> 18</td>
+                            {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
+                            {/* FILA 01 TELEFONO*/}<td> 987654321</td>
+                            {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
+                        </tr>
+                    </tbody>
                     <tbody>
                         <tr>
                             {/* FILA 01 CORREO*/} <td>ctitoh@gmail.com</td>
