@@ -1,30 +1,39 @@
 .container1{
   background-image: url('https://media.discordapp.net/attachments/879730536908734504/1045441074308591616/unknown.png?width=994&height=662');
-  display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: sans-serif;
+	font-weight: 100;
+  	margin: 0;
 }
 
 .container1 thead tr th{
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #9acdd5;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(8.5px);
-  border-radius: 10px;
   color: black;
   text-transform: uppercase ;
-  letter-spacing: 0.4rem;
-  width: 80%;
-  height: 80%;
+  letter-spacing: 0.1rem;
   margin: auto auto;
-  align-items: center;
+  width: 50%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 15px;
+  font-size: 0.8rem;
+  text-align: center;
+  font-size: x-small;
+  backdrop-filter: blur(8.5px);
+  width: 50%;
+  height: 50%;
+  
 }
 
 .container1 tbody tr td{
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   color: #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
