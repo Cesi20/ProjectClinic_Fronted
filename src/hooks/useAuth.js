@@ -27,6 +27,5 @@ export const useAuth = () => {
       return { ok: false, msg: error.response.data.msg };
     }
   };
-
   return { user, registro, login };
 };
