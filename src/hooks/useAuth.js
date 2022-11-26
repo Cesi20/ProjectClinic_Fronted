@@ -1,5 +1,5 @@
 import { useAtom } from "jotai";
-import { authLoginDB, authRegistroDB } from "../services/user";
+import { authLoginDB, authRegistroDB, authRevalidateTokenDB } from "../services/user";
 import { dataUser } from "../store/storeUser";
 
 export const useAuth = () => {
@@ -27,5 +27,18 @@ export const useAuth = () => {
       return { ok: false, msg: error.response.data.msg };
     }
   };
-  return { user, registro, login };
+
+
+  const revalidateToken = async () => {
+    try {
+      const token = localStorage.getItem("token") || "";
+      const data = await authRevalidateTokenDB(token);
+      setUser(data?.user || null);
+    } catch (error) {
+      console.log(error.response.data.msg);
+    }
+  };
+
+
+  return { user, registro, login, revalidateToken };
 };

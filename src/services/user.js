@@ -10,5 +10,12 @@ export const authRegistroDB = async (dataRegistro) => {
   return data;
 };
 
-
+export const authRevalidateTokenDB = async (token) => { 
+  const { data } = await ClinicAPI.get("/auth/revalidate", {
+    headers: {
+      Authorization: `Bearer ${token}`
+    },
+  });
+  return data;
+}
 

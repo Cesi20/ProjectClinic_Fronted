@@ -1,4 +1,6 @@
+// import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth';
 
 import Login from '../views/auth/Login';
 import Registro from '../views/auth/Registro';
@@ -7,11 +9,16 @@ import PrincipalPaci from '../views/home/PrincipalPaci';
 import VerPaciente from '../views/home/VerPaciente';
 
 export const AppRouter = () => {
+  const { revalidateToken } = useAuth();
+
+  // useEffect(() => {
+    // revalidateToken();
+  // }, []);
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Navigate to = '/login'/>} />
+        <Route path='/' element={<Navigate to='/login' />} />
         <Route path="/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/principalDoc" element={<PrincipalDoc />} />
