@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/VerPaci.css";
 
 export default function VerPaciente() {
+
+    const [dataPatients, setDataPatients] = useState([]);
+
     return (
         <center>
             <div className="container1">
@@ -10,7 +13,6 @@ export default function VerPaciente() {
                         src="https://media.discordapp.net/attachments/879730536908734504/1044474116981403668/image-removebg-preview.png"
                         alt=""
                     />
-
                     <table classname="tabla">
 
                         {/* COLUMNAS DE LA TABLA */}
@@ -41,7 +43,6 @@ export default function VerPaciente() {
                                 {/* FILA 01 FECHA DE NACIMIENTO*/}<td> 20/05/2004</td>
                                 {/* FILA 01 TELEFONO*/}<td> 987654321</td>
                                 {/* FILA 01 DIRECCION*/}<td> Av. Los Alamos 123</td>
-                                {/* FILA 01 FUNCIONES*/}<td> <button>Editar</button> <button>Eliminar</button> <button>Certificado</button> <button>SMS</button> </td>
                             </tr>
                         </tbody>
                     </table>
