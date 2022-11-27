@@ -4,3 +4,7 @@ export const GetPatientsDB = async () => {
     const { data } = await ClinicAPI.get("/patient");
     return data;
   };
+export const GetPatients = async () => {
+    const { data } = await ClinicAPI.get("/patient {}`");
+    return data;
+  }; 

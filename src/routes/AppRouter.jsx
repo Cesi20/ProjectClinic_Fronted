@@ -7,6 +7,7 @@ import Registro from '../views/auth/Registro';
 import PrincipalDoc from '../views/home/PrincipalDoc';
 import PrincipalPaci from '../views/home/PrincipalPaci';
 import VerPaciente from '../views/home/VerPaciente';
+import EditarPaciente from '../views/home/editarPaciente';
 
 export const AppRouter = () => {
   const { revalidateToken } = useAuth();
@@ -18,6 +19,7 @@ export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/editarPaciente/:id" element={<EditarPaciente />} />
         <Route path='/' element={<Navigate to='/login' />} />
         <Route path="/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
