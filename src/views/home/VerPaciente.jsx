@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePatients } from "../../hooks/usePatients";
 import "../../styles/VerPaci.css";
+import { Link } from "react-router-dom";
 
 export default function VerPaciente() {
 
     const [dataPatients, setDataPatients] = useState([]);
-    const { getPatients } = usePatients()
+    const { getPatients, deletePatient } = usePatients()
 
     const navigate = useNavigate();
     useEffect(() => {
@@ -19,6 +20,14 @@ export default function VerPaciente() {
             setDataPatients(patients);
         }
     };
+
+    const deletePa = async (id) => {
+        const { ok } = await deletePatient(id);
+        console.log(ok);
+        window.location.reload();
+
+    };
+
     console.log(dataPatients);
     if (!dataPatients) return null;
 
@@ -48,22 +57,22 @@ export default function VerPaciente() {
                             </tr>
                         </thead>
                         <tbody>
-                        {dataPatients.map((patient) => (
-                            <tr key={patient.id}> 
-                            {/* FILA 01 CORREO*/}<td> {patient.email}</td>
-                                {/* FILA 01 NOMBRES COMPLETOS*/}<td> {patient.fullname}</td>
-                                {/* FILA 01 TIPO DE DOCUMENTO*/}<td>{patient.documentType}</td>
-                                {/* FILA 01 NUMERO DE DOCUMENTO*/}<td>{patient.documentNumber}</td>
-                                {/* FILA 01 GENERO*/}<td>{patient.sex}</td>
-                                {/* FILA 01 EDAD*/}<td> {patient.age}</td>
-                                {/* FILA 01 FECHA DE NACIMIENTO*/}<td>{patient.birthDate}</td>
-                                {/* FILA 01 TELEFONO*/}<td> {patient.phone}</td>
-                                {/* FILA 01 DIRECCION*/}<td> {patient.location}</td>
-                                {/* FILA 01 FUNCIONES*/}<td> <button onClick = {() => {navigate(`/editarPaciente/${patient._id}`)}}
-                                
-                                > editar </button> <button>Eliminar</button></td>
-                            </tr>
-                        ))}
+                            {dataPatients.map((patient) => (
+                                <tr key={patient.id}>
+                                    {/* FILA 01 CORREO*/}<td> {patient.user.email}</td>
+                                    {/* FILA 01 NOMBRES COMPLETOS*/}<td> {patient.fullname}</td>
+                                    {/* FILA 01 TIPO DE DOCUMENTO*/}<td>{patient.documentType}</td>
+                                    {/* FILA 01 NUMERO DE DOCUMENTO*/}<td>{patient.documentNumber}</td>
+                                    {/* FILA 01 GENERO*/}<td>{patient.sex}</td>
+                                    {/* FILA 01 EDAD*/}<td> {patient.age}</td>
+                                    {/* FILA 01 FECHA DE NACIMIENTO*/}<td>{patient.birthDate}</td>
+                                    {/* FILA 01 TELEFONO*/}<td> {patient.phone}</td>
+                                    {/* FILA 01 DIRECCION*/}<td> {patient.location}</td>
+                                    {/* FILA 01 FUNCIONES*/}<td> <button onClick={() => { navigate(`/editarPaciente/${patient._id}`) }}
+
+                                    > editar </button> <button onClick={() => deletePa(patient._id)}>Eliminar</button></td>
+                                </tr>
+                            ))}
                         </tbody>
                     </table>
                 </div>
