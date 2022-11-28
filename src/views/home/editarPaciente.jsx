@@ -55,6 +55,7 @@ export default function EditarPaciente() {
                     <input type="date" placeholder="date" defaultValue={dataPatient?.birthDate} />
                     <input type="text" placeholder="Celular" defaultValue={dataPatient?.phone} />
                     <input type="text" placeholder="Direccion" defaultValue={dataPatient?.location} />
+                    {/* <input type="text" placeholder="Distrito" defaultValue={dataPatient?.district} /> */}
 
                     <button type="submit">Guardar</button>
                 </form>
