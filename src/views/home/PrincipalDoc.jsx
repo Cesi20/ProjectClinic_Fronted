@@ -4,7 +4,7 @@ import { useAtom } from "jotai";
 import { dataUser } from "../../store/storeUser";
 
 export default function PrincipalDoc() {
-  const [user, ] = useAtom(dataUser);
+  const [user,] = useAtom(dataUser);
   return (
     <div className="portada">
       <div className="fondo_blanco">
@@ -14,15 +14,15 @@ export default function PrincipalDoc() {
         />
 
         <h1>BIENVENIDA DOCTORA</h1>
-        <h1> 
-        {user?.email}
-           </h1>
-           <br></br>
-        
-          <Link to="/verPaciente">
-            <button>Ver Pacientes</button>
-          </Link>
-        
+        <h1>
+          {user?.doctor?.fullname}
+        </h1>
+        <br></br>
+
+        <Link to="/verPaciente">
+          <button>Ver Pacientes</button>
+        </Link>
+
         <div className="space"></div>
       </div>
     </div>
