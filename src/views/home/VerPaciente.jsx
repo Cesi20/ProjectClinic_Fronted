@@ -33,6 +33,7 @@ export default function VerPaciente() {
     return (
         <center>
             <div className="container1">
+            {/* <button onClick={() => navigate("/principalDoc")}>Volver</button> */}
                 <div className="container">
                     <img
                         src="https://media.discordapp.net/attachments/879730536908734504/1044474116981403668/image-removebg-preview.png"
@@ -69,7 +70,13 @@ export default function VerPaciente() {
                                     {/* FILA 01 DIRECCION*/}<td> {patient.location}</td>
                                     {/* FILA 01 FUNCIONES*/}<td> <button onClick={() => { navigate(`/editarPaciente/${patient._id}`) }}
 
-                                    > editar </button> <button onClick={() => deletePa(patient._id)}>Eliminar</button></td>
+                                    ><img src="https://cdn-icons-png.flaticon.com/512/45/45613.png" alt="x" /></button>
+                                    <div class="space"></div>
+                                    <button onClick={() => deletePa(patient._id)}><img src="https://cdn-icons-png.flaticon.com/512/105/105739.png" alt="x" /></button>
+                                    <div class="space"></div>
+                                    <button type="submit"><img src="https://images.vexels.com/media/users/3/159468/isolated/preview/9766d5e250f3b61aab8bc60499398e4b-trazo-de-hoja-de-papel.png" alt="x" /></button>
+                                    <div class="space"></div>
+                                    </td>
                                 </tr>
                             ))}
                         </tbody>

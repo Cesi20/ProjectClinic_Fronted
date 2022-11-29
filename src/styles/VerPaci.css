@@ -1,4 +1,4 @@
-.container1{
+.container1 {
   background-image: url('https://media.discordapp.net/attachments/879730536908734504/1045441074308591616/unknown.png?width=994&height=662');
   align-items: center;
   height: 100vh;
@@ -6,10 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-	font-weight: 100;
+  font-weight: 100;
   margin: 0;
-  
-    
+
 }
 
 .container1 table {
@@ -17,24 +16,25 @@
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
 }
 
-.container1 img{
+.container1 img {
   width: 200px;
   height: 80px;
   margin-top: 20px;
 
 }
 
-.container1 thead tr th{
+.container1 thead tr th {
   background-color: #c4e7fd;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   color: black;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: auto auto;
   width: 50%;
-	overflow: hidden;
+  overflow: hidden;
   padding: 15px;
   font-size: 0.8rem;
   text-align: center;
@@ -42,11 +42,11 @@
   backdrop-filter: blur(8.5px);
   width: 50%;
   height: 50%;
-  
-  
+
+
 }
 
-.container1 tbody tr td{
+.container1 tbody tr td {
   font-size: 1rem;
   text-align: center;
   color: #000000;
@@ -57,10 +57,48 @@
 
 }
 
-.container1 tbody button{
-  color: #000000;
+.container1 tbody button {
   text-decoration: none;
-  
+  background: linear-gradient(to right, #c4f0ff 0%, #bae8f8 79%);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding-inline: 1rem;
 
 }
 
+.container1 tbody button img {
+  width: 20px;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  margin-top: 5px;
+
+}
+
+.space {
+  margin-bottom: 3px;
+}
+
+.container1 tbody button:hover {
+  background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
+    box-shadow: 0 8px 32px 0 #76ACCB;
+}
+
+/* .container1 button {
+  background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding-inline: 2rem;
+ 
+
+}
+
+.container1 button:hover {
+  background: linear-gradient(to right, #00aae4 0%, #00aae4 79%);
+    box-shadow: 0 8px 32px 0 #76ACCB;
+} */
