@@ -37,6 +37,7 @@ export default function VerPaciente() {
                                 <th>CMP</th>
                                 <th>RNE</th>
                                 </tr>
+                                
                         </thead>
                         <tbody>
                             <tr>
