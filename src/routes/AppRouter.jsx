@@ -8,6 +8,7 @@ import PrincipalDoc from '../views/home/PrincipalDoc';
 import PrincipalPaci from '../views/home/PrincipalPaci';
 import VerPaciente from '../views/home/VerPaciente';
 import EditarPaciente from '../views/home/editarPaciente';
+import VerDoc from '../views/home/VerDoc';
 
 export const AppRouter = () => {
   const { revalidateToken } = useAuth();
@@ -28,7 +29,7 @@ export const AppRouter = () => {
         <Route path="/verPaciente" element={<VerPaciente />} />
         <Route path="/principalPaci" element={<PrincipalPaci />} />
         {/* <Route path="/verCerti" element={<VerCerti />} /> */}
-        {/* <Route path="/verDoc" element={<VerDoc />} /> */}
+        <Route path="/verDoc" element={<VerDoc />} />
 
       </Routes>
     </BrowserRouter>

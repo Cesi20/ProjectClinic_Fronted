@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePatients } from "../../hooks/usePatients";
 import "../../styles/VerPaci.css";
-import { Link } from "react-router-dom";
 
 export default function VerPaciente() {
 

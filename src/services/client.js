@@ -1,5 +1,5 @@
 import { ClinicAPI } from "../api/ClinicAPI";
-
+//PACIENTES
 export const GetPatientsDB = async () => {
     const { data } = await ClinicAPI.get("/patient");
     return data;
@@ -17,3 +17,8 @@ export const GetPatientDB = async (id) => {
     console.log (data);
     return data;
   };
+//DOCTORES
+  export const GetDoctorsDB = async () => {
+    const { data } = await ClinicAPI.get("/doctor");
+    return data;
+  }
