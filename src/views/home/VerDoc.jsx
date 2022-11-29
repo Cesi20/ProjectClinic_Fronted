@@ -37,16 +37,18 @@ export default function VerPaciente() {
                                 <th>CMP</th>
                                 <th>RNE</th>
                                 </tr>
-                                
+
                         </thead>
                         <tbody>
+                        {dataDoctors.map((doctor) =>(
                             <tr>
-                                <td>Dr. Lady Gabriela Hernandez Huerta</td>
-                                <td>987654321</td>
-                                <td>Cardiologia</td>
-                                <td>123456</td>
-                                <td>123456</td>
+                                {/*NOMBRE DEL DOCTOR*/}<td>{doctor.fullname}</td> 
+                                <td>{doctor.phone}</td>
+                                <td>{doctor.speciality}</td>
+                                <td>{doctor.cmp}</td>
+                                <td>{doctor.rne}</td>
                             </tr>
+                        ))}
                         </tbody>
                     </table>
                 </div>

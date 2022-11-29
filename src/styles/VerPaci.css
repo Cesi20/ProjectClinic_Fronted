@@ -1,7 +1,6 @@
 .container1{
   background-image: url('https://media.discordapp.net/attachments/879730536908734504/1045441074308591616/unknown.png?width=994&height=662');
   align-items: center;
-  flex-direction: column;
   height: 100vh;
   width: 80vw;
   background-repeat: no-repeat;
@@ -54,6 +53,7 @@
   width: 50%;
   height: 50%;
   backdrop-filter: blur(8.5px);
+  padding-top: 10px;
 
 }
 
