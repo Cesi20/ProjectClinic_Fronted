@@ -1,7 +1,9 @@
+import { Button } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePatients } from "../../hooks/usePatients";
 import "../../styles/VerPaci.css";
+import { Link } from "react-router-dom"
 
 export default function VerPaciente() {
 
@@ -70,12 +72,16 @@ export default function VerPaciente() {
                                     {/* FILA 01 DIRECCION*/}<td> {patient.location}</td>
                                     {/* FILA 01 FUNCIONES*/}<td> <button onClick={() => { navigate(`/editarPaciente/${patient._id}`) }}
 
-                                    ><img src="https://cdn-icons-png.flaticon.com/512/45/45613.png" alt="x" /></button>
+                                    ><img src="https://cdn-icons-png.flaticon.com/512/45/45613.png" /></button>
                                     <div class="space"></div>
                                     <button onClick={() => deletePa(patient._id)}><img src="https://cdn-icons-png.flaticon.com/512/105/105739.png" alt="x" /></button>
                                     <div class="space"></div>
                                     <button type="submit"><img src="https://images.vexels.com/media/users/3/159468/isolated/preview/9766d5e250f3b61aab8bc60499398e4b-trazo-de-hoja-de-papel.png" alt="x" /></button>
                                     <div class="space"></div>
+                                    <Link to = "/Chat">
+                                    <button type="submit">
+                                    <img src="https://media.discordapp.net/attachments/879730536908734504/1047654980607295528/image-removebg-preview_3.png" /></button>
+                                    </Link>
                                     </td>
                                 </tr>
                             ))}
