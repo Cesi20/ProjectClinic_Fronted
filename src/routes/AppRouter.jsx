@@ -10,6 +10,7 @@ import VerPaciente from '../views/home/VerPaciente';
 import EditarPaciente from '../views/home/editarPaciente';
 import VerDoc from '../views/home/VerDoc';
 import Chat from '../views/home/Chat';
+import CrearCerti from '../views/home/CrearCerti';
 
 export const AppRouter = () => {
   const { revalidateToken } = useAuth();
@@ -26,7 +27,7 @@ export const AppRouter = () => {
         <Route path="/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/principalDoc" element={<PrincipalDoc />} />
-        {/* <Route path="/crearCerti" element={<CrearCerti />} /> */}
+       <Route path="/crearCerti/:id" element={<CrearCerti />} />
         <Route path="/verPaciente" element={<VerPaciente />} />
         <Route path="/principalPaci" element={<PrincipalPaci />} />
         {/* <Route path="/verCerti" element={<VerCerti />} /> */}

@@ -74,9 +74,15 @@ export default function VerPaciente() {
 
                                     ><img src="https://cdn-icons-png.flaticon.com/512/45/45613.png" /></button>
                                     <div class="space"></div>
-                                    <button onClick={() => deletePa(patient._id)}><img src="https://cdn-icons-png.flaticon.com/512/105/105739.png" alt="x" /></button>
+                                    <button onClick={() => deletePa(patient._id)}><img src="https://cdn-icons-png.flaticon.com/512/105/105739.png" alt="x" /></button> 
+                                    
                                     <div class="space"></div>
-                                    <button type="submit"><img src="https://images.vexels.com/media/users/3/159468/isolated/preview/9766d5e250f3b61aab8bc60499398e4b-trazo-de-hoja-de-papel.png" alt="x" /></button>
+                                    <button onClick={() => { navigate(`/CrearCerti/${patient._id}`) }}>
+
+                                        <img src="https://images.vexels.com/media/users/3/159468/isolated/preview/9766d5e250f3b61aab8bc60499398e4b-trazo-de-hoja-de-papel.png" />
+
+                                    </button>
+
                                     <div class="space"></div>
                                     <Link to = "/Chat">
                                     <button type="submit">
