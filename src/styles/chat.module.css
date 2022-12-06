@@ -1,0 +1,112 @@
+body {
+  background: url(https://media.discordapp.net/attachments/1041940073597374495/1049479159136665720/pexels-photo-5452301.png?width=1007&height=671);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utils */
+.container {
+  width: 50%;
+  margin: 10% auto;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  color: #fff;
+}
+
+/* Header Chat */
+.header-chat {
+  display: flex;
+  background: rgba(82, 179, 217, 0.9);
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-inline: 2rem;
+  padding-block: 0.2rem;
+}
+
+.header-chat img {
+  width: 4rem;
+}
+
+.header-chat i {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-chat p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Content chat */
+.content-chat {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  padding-inline: 4rem;
+  padding-block: 2rem;
+  overflow-y: auto;
+  height: 27rem;
+}
+
+.chat-from {
+  text-align: left;
+  background: #fff;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.chat-i {
+  text-align: right;
+  width: fit-content;
+  margin-left: 50%;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.chat-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Form Chat */
+.form {
+  background-color: #fff;
+  padding-block: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-bottom: 1px solid #b1afaf;
+  gap: 1rem;
+}
+
+.form-group p {
+  font-size: 2rem;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 100%;
+}

@@ -1,10 +1,17 @@
 import "../../styles/estiloDoc.css";
 import { Link } from "react-router-dom";
-import { useAtom } from "jotai";
-import { dataUser } from "../../store/storeUser";
+import { useAuth } from "../../hooks/useAuth";
+import { useEffect } from "react";
 
 export default function PrincipalDoc() {
-  const [user,] = useAtom(dataUser);
+  // const [user,] = useAtom(dataUser);
+  const { user } = useAuth();
+
+  useEffect(() => {
+    console.log(user)
+  }, [])
+  
+
   return (
     <div className="portada">
       <div className="fondo_blanco">
@@ -14,13 +21,15 @@ export default function PrincipalDoc() {
         />
 
         <h1>BIENVENIDA DOCTORA</h1>
-        <h1>
-          {user?.doctor?.fullname}
-        </h1>
+        <h1>{user?.doctor?.fullname}</h1>
         <br></br>
 
         <Link to="/verPaciente">
           <button>Ver Pacientes</button>
+        </Link>
+
+        <Link to="/chat">
+          <button>Chat</button>
         </Link>
 
         <div className="space"></div>

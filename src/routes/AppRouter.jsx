@@ -11,13 +11,19 @@ import EditarPaciente from '../views/home/editarPaciente';
 import VerDoc from '../views/home/VerDoc';
 import Chat from '../views/home/Chat';
 import CrearCerti from '../views/home/CrearCerti';
+import { useEffect } from 'react';
 
 export const AppRouter = () => {
-  const { revalidateToken } = useAuth();
+  const { revalidateToken, user } = useAuth();
 
   // useEffect(() => {
     // revalidateToken();
   // }, []);
+
+  useEffect(() => {
+    console.log(user);
+  }, [])
+  
 
   return (
     <BrowserRouter>
