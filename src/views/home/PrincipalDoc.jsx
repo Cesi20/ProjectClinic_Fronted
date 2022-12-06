@@ -27,11 +27,7 @@ export default function PrincipalDoc() {
         <Link to="/verPaciente">
           <button>Ver Pacientes</button>
         </Link>
-
-        <Link to="/chat">
-          <button>Chat</button>
-        </Link>
-
+        
         <div className="space"></div>
       </div>
     </div>

@@ -17,9 +17,6 @@ export default function PrincipalPaci() {
             <button>Ver Doctores</button>
           </Link>
           <div className="space"></div>
-          <Link to="/verCerti">
-            <button>Ver certificado Medico</button>
-          </Link>
 
           <Link to="/chat">
             <button>Chat</button>
