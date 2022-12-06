@@ -40,17 +40,14 @@ function Chat() {
 
   return (
     <div className={styles.chat}>
-      <h1 className={styles.title}>Bienvenido</h1>
-
       <div className={styles.container}>
         <div className={styles["header-chat"]}>
           <i className="fa-solid fa-chevron-left"></i>
-          <img
+          {/* <img
             src="https://media.discordapp.net/attachments/1041940073597374495/1049472480919699506/1869354.png"
             alt="profile"
-          />
-          {/* Nombre del que recibe */}
-          <p>Alex</p>
+          /> */}
+          <p>Chat</p>
         </div>
         <ul className={styles["content-chat"]}>
           {messages.map((message, index) =>
@@ -71,7 +68,7 @@ function Chat() {
         </ul>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles["form-group"]}>
-            <p>🐶</p>
+            <p>📨</p>
             <input
               name="message"
               type="text"

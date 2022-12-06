@@ -3,8 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   backdrop-filter: blur(10px);
 }
 
@@ -35,7 +35,7 @@ ul {
   justify-content: flex-start;
   gap: 2rem;
   padding-inline: 2rem;
-  padding-block: 0.2rem;
+  padding-block: 1rem;
 }
 
 .header-chat img {
@@ -76,7 +76,7 @@ ul {
 .chat-i {
   text-align: right;
   width: fit-content;
-  margin-left: 50%;
+  margin-left: 68%;
   background-color: #fff;
   padding: 1rem;
 }
