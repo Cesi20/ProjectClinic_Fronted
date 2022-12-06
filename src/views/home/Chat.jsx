@@ -39,6 +39,7 @@ function Chat() {
   console.log(messages);
 
   return (
+    <div className={styles.chatglobal}>
     <div className={styles.chat}>
       <div className={styles.container}>
         <div className={styles["header-chat"]}>
@@ -109,6 +110,7 @@ function Chat() {
           ))}
         </ul>
       </form> */}
+    </div>
     </div>
   );
 }

@@ -1,13 +1,13 @@
-body {
+
+.chatglobal{
   background: url(https://media.discordapp.net/attachments/1041940073597374495/1049479159136665720/pexels-photo-5452301.png?width=1007&height=671);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   backdrop-filter: blur(10px);
 }
-
 ul {
   list-style: none;
 }
