@@ -51,15 +51,6 @@ export default function Login() {
           {/* <Link to="/principalDoc">
           </Link> */}
           <button type="submit"> Ingresar </button>
-
-          <Link to="/registro">
-            <button>Registrarse</button>
-            </Link>
-          <center>
-            <Link to="/ForgetPassword">
-              <p>¿Olvidaste tu contraseña?</p>
-            </Link>
-          </center>
         </form>
       </div>
     </div>

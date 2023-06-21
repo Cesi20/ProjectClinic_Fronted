@@ -17,10 +17,12 @@ export default function PrincipalPaci() {
             <button>Ver Doctores</button>
           </Link>
           <div className="space"></div>
-
-          <Link to="/chat">
+          
+          {/*
+            <Link to="/chat">
             <button>Chat</button>
-          </Link>
+            </Link>
+*/}
         </center>
       </div>
     </div>

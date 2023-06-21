@@ -83,12 +83,14 @@ export default function VerPaciente() {
 
                                     </button>
 
+                                    {/*
                                     <div class="space"></div>
                                     <Link to = "/Chat">
                                     <button type="submit">
                                     <img src="https://media.discordapp.net/attachments/879730536908734504/1047654980607295528/image-removebg-preview_3.png" /></button>
                                     </Link>
                                     <div class="space"></div>
+                                    */}
                                     </td>
                                 </tr>
                             ))}
